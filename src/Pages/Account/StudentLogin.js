@@ -19,7 +19,7 @@ const StudentLogin = () => {
     let signInError;
     let navigate = useNavigate();
     let location = useLocation();
-    let from = location.state?.from?.pathname || "/";
+    let from = location.state?.from?.pathname || "/schedule";
 
     if (gLoading || loading) {
         return <Loading></Loading>

@@ -9,6 +9,7 @@ module.exports = {
       'gray': '#C5DDFB',
       'white': '#FFFFFF',
       'success': '#FFA500',
+      'red': '#FF0000',
     },
     extend: {},
   },

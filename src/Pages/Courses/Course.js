@@ -1,14 +1,28 @@
 import React from 'react';
 
-const Course = ({course}) => {
-    const {name, slots, img} = course;
+const Course = ({ course, setPurchase }) => {
+    const { name, slots, img, price } = course;
     return (
         <div class="card lg:max-w-lg shadow-xl hover:bg-blue">
-        <div class="card-body">
-          <img className='w-32 lg:w-28 ml-24 lg:ml-16' src={img} alt="" />
-          <h2 class="card-title">{name}</h2>
+            <div class="card-body">
+                <img className='w-40 lg:w-28 ml-16 lg:ml-16' src={img} alt="" />
+                <h2 class="text-xl font-bold text-center">{name}</h2>
+                <p className='text-center'>
+                    {
+                        slots.length > 0 ? <span>Price : ${price}</span> : <span className='text-red'>Try again in next month</span>
+                    }
+                </p>
+                <p className='text-center'>{slots.length} {slots.length > 1 ? 'Seats' : 'Seat'} Available</p>
+                <div className='card-actions justify-center'>
+                    <label
+                        onClick={() => setPurchase(course)}
+                        disabled={slots.length === 0}
+                        for="booking-modal"
+                        class="btn btn-sm w-full btn-primary ml-16 mr-16  hover:btn-success">Enroll Now
+                    </label>
+                </div>
+            </div>
         </div>
-      </div>
     );
 };
 

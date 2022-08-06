@@ -8,7 +8,7 @@ const Main = () => {
         <>
             <div className=' bg-blue pt-16'>
 
-                <p className='text-center lg:mt-28 text-white text-3xl lg:text-5xl font-bold'>Welcome to Techokids</p>
+                <p className='text-center lg:mt-28 text-white text-3xl lg:text-5xl font-bold'>Welcome To Techokids</p>
 
                 <div>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 lg:gap-16 mx-12 lg:mx-32 pb-52 mt-12 lg:mt-16'>

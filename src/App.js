@@ -7,6 +7,7 @@ import TeacherLogin from './Pages/Account/TeacherLogin';
 import TeacherSignUp from './Pages/Account/TeacherSignUp';
 import Navbar from './Components/Navbar';
 import Schedule from './Pages/Courses/Courses';
+import StudentRequireAuth from './Pages/Account/StudentRequireAuth';
 
 function App() {
   return (
@@ -18,7 +19,13 @@ function App() {
         <Route path='/studentSignUp' element={<StudentSignUp></StudentSignUp>}></Route>
         <Route path='/teacherLogin' element={<TeacherLogin></TeacherLogin>}></Route>
         <Route path='/teacherSignUp' element={<TeacherSignUp></TeacherSignUp>}></Route>
-        <Route path='/schedule' element={<Schedule></Schedule>}></Route>
+        <Route path='/schedule' element=
+        {
+          <StudentRequireAuth>
+            <Schedule></Schedule>
+          </StudentRequireAuth>
+        }
+        ></Route>
       </Routes>
     </>
   );
