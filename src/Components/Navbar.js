@@ -6,8 +6,8 @@ const Navbar = () => {
 
 
     const menuItems = <>
-    <li className='text-black font-bold'><Link to="/">Home</Link></li>
-    <li className='text-black font-bold'><Link to="/dashboard">DashBoard</Link></li>
+    <li className='text-black font-bold text-xl'><Link to="/">Home</Link></li>
+    <li className='text-black font-bold text-xl'><Link to="/dashboard">DashBoard</Link></li>
 
 </>
 

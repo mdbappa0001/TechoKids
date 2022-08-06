@@ -1,0 +1,26 @@
+[
+    {
+        "teacherName": "Dinesh",
+        "teacherId": 10092,
+        "subject": "Physics",
+        "class": "Nine"
+    },
+    {
+        "teacherName": "Tanjim",
+        "teacherId": 10095,
+        "subject": "Chemistry",
+        "class": "Eight"
+    },
+    {
+        "teacherName": "Omar",
+        "teacherId": 10000,
+        "subject": "Mathematics",
+        "class": "Ten"
+    },
+    {
+        "teacherName": "Anupam",
+        "teacherId": 10097,
+        "subject": "Biology",
+        "class": "Ten"
+    }
+]

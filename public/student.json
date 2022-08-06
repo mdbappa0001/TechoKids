@@ -1,0 +1,30 @@
+[
+    {
+        "studentName": "Bappa",
+        "studentId": 102,
+        "address": "Mumbai",
+        "class": "eight",
+        "subject": "physics"
+    },
+    {
+        "studentName": "Rony",
+        "studentId": 100,
+        "address": "New Delhi",
+        "class": "Ten",
+        "subject": "Chemistry"
+    },
+    {
+        "studentName": "Dinesh",
+        "studentId": 103,
+        "address": "Rajasthan",
+        "class": "Seven",
+        "subject": "Biology"
+    },
+    {
+        "studentName": "Tanjim",
+        "studentId": 105,
+        "address": "Gujarat",
+        "class": "Six",
+        "subject": "Mathematics"
+    }
+]
