@@ -5,10 +5,12 @@ import Home from './Pages/Home/Home';
 import { Route, Routes } from 'react-router-dom';
 import TeacherLogin from './Pages/Account/TeacherLogin';
 import TeacherSignUp from './Pages/Account/TeacherSignUp';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
     <>
+    <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/studentLogin' element={<StudentLogin></StudentLogin>}></Route>
