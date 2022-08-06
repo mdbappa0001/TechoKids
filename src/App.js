@@ -8,6 +8,8 @@ import TeacherSignUp from './Pages/Account/TeacherSignUp';
 import Navbar from './Components/Navbar';
 import Schedule from './Pages/Courses/Courses';
 import StudentRequireAuth from './Pages/Account/StudentRequireAuth';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -27,6 +29,7 @@ function App() {
         }
         ></Route>
       </Routes>
+      <ToastContainer />
     </>
   );
 }
