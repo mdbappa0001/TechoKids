@@ -1,0 +1,121 @@
+[
+    {
+      "_id": 1,
+      "name": "App Development",
+      "img": "https://i.ibb.co/Vp2vLMS/app.png",
+      "price": 25,
+      "slots": [
+        "08.00 AM - 09.00 AM",
+        "09.00 AM - 10.00 AM",
+        "10.00 AM - 11.00 AM",
+        "11.00 AM - 12.00 AM",
+        "3.00 PM - 4.00 PM",
+        "4.00 PM - 5.00 PM",
+        "6.00 PM - 7.00 PM"
+      ]
+    },
+    {
+      "_id": 2,
+      "name": "Artificial Intelligence",
+      "img": "https://i.ibb.co/mv9wZd9/artificial.png",
+      "price": 30,
+      "slots": [
+        "08.00 AM - 09.30 AM",
+        "10.00 AM - 11.30 AM",
+        "3.00 PM - 4.30 PM",
+        "5.00 PM - 6.30 PM"
+      ]
+    },
+    {
+      "_id": 3,
+      "name": "PYTHON PROGRAMMING",
+      "img": "https://i.ibb.co/5x20pBb/python.png",
+      "price": 12,
+      "slots": [
+        "08.00 AM - 09.00 AM",
+        "09.00 AM - 10.00 AM",
+        "10.00 AM - 11.00 AM",
+        "11.00 AM - 12.00 AM",
+        "3.00 PM - 4.00 PM",
+        "4.00 PM - 5.00 PM",
+        "6.00 PM - 7.00 PM"
+      ]
+    },
+    {
+      "_id": 4,
+      "name": "Robotics",
+      "img": "https://i.ibb.co/CbZtrsV/robot.png",
+      "price": 15,
+      "slots": [
+        "08.00 AM - 09.30 AM",
+        "10.00 AM - 11.30 AM",
+        "3.00 PM - 4.30 PM",
+        "5.00 PM - 6.30 PM"
+      ]
+    },
+    {
+      "_id": 5,
+      "name": "AR & VR",
+      "img": "https://i.ibb.co/ftK7sxc/ar.png",
+      "price": 45,
+      "slots": [
+        "08.00 AM - 09.00 AM",
+        "09.00 AM - 10.00 AM",
+        "10.00 AM - 11.00 AM",
+        "11.00 AM - 12.00 AM",
+        "3.00 PM - 4.00 PM",
+        "4.00 PM - 5.00 PM",
+        "6.00 PM - 7.00 PM"
+      ]
+    },
+    {
+      "_id": 6,
+      "name": "Game Programming",
+      "img": "https://i.ibb.co/d5bHjCy/games.png",
+      "price": 30,
+      "slots": [
+        "08.00 AM - 09.30 AM",
+        "10.00 AM - 11.30 AM",
+        "3.00 PM - 4.30 PM",
+        "5.00 PM - 6.30 PM"
+      ]
+    },
+    {
+      "_id": 7,
+      "name": "Web Development",
+      "img": "https://i.ibb.co/T8zn88W/web.png",
+      "price": 35,
+      "slots": [
+        "08.00 AM - 09.00 AM",
+        "09.00 AM - 10.00 AM",
+        "10.00 AM - 11.00 AM",
+        "11.00 AM - 12.00 AM",
+        "3.00 PM - 4.00 PM",
+        "4.00 PM - 5.00 PM",
+        "6.00 PM - 7.00 PM"
+      ]
+    },
+    {
+      "_id": 8,
+      "name": "Data Science",
+      "img": "https://i.ibb.co/gPTq5ST/data.png",
+      "price": 50,
+      "slots": [
+        "08.00 AM - 09.00 AM",
+        "09.00 AM - 10.00 AM",
+        "10.00 AM - 11.00 AM",
+        "11.00 AM - 12.00 AM",
+        "3.00 PM - 4.00 PM",
+        "4.00 PM - 5.00 PM",
+        "6.00 PM - 7.00 PM"
+      ]
+    }
+  ]
+
+  
+
+
+
+
+
+

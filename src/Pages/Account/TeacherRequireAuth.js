@@ -13,7 +13,7 @@ const TeacherRequireAuth = ({ children }) => {
     }
 
     if (!user) {
-        return <Navigate to="/login" state={{ from: location }} replace></Navigate>
+        return <Navigate to="/teacherLogin" state={{ from: location }} replace></Navigate>
     }
     return children;
 };

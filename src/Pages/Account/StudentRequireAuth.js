@@ -13,7 +13,7 @@ const StudentRequireAuth = ({ children }) => {
     }
 
     if (!user) {
-        return <Navigate to="/login" state={{ from: location }} replace></Navigate>
+        return <Navigate to="/studentLogin" state={{ from: location }} replace></Navigate>
     }
     return children;
 };

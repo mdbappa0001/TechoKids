@@ -51,7 +51,7 @@ const StudentSignUp = () => {
   <div className='flex h-screen justify-center items-center'>
             <div className="card w-96 bg-base-100 shadow-xl">
                 <div className="card-body">
-                    <h2 className="text-center text-3xl font-bold mb-4">Student Sign Up</h2>
+                    <h2 className="text-center text-3xl font-bold mb-4">Student Registration</h2>
 
                     <form onSubmit={handleSubmit(onSubmit)}>
 

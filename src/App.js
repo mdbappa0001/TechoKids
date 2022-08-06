@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom';
 import TeacherLogin from './Pages/Account/TeacherLogin';
 import TeacherSignUp from './Pages/Account/TeacherSignUp';
 import Navbar from './Components/Navbar';
+import Schedule from './Pages/Courses/Courses';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/studentSignUp' element={<StudentSignUp></StudentSignUp>}></Route>
         <Route path='/teacherLogin' element={<TeacherLogin></TeacherLogin>}></Route>
         <Route path='/teacherSignUp' element={<TeacherSignUp></TeacherSignUp>}></Route>
+        <Route path='/schedule' element={<Schedule></Schedule>}></Route>
       </Routes>
     </>
   );
