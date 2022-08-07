@@ -1,4 +1,3 @@
-import React, { Children } from 'react';
 import { format } from 'date-fns';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../../Firebase/Firebase.init';
@@ -10,6 +9,10 @@ const OpenModal = ({ purchase, date, setPurchase }) => {
     const { _id, name, slots, grades } = purchase;
     const [user, loading] = useAuthState(auth);
     const formattedDate = format(date, 'PP');
+
+    if(loading || !user){
+        return <Loading></Loading>
+    }
 
     const handleBooding = event => {
         event.preventDefault();
@@ -45,9 +48,6 @@ const OpenModal = ({ purchase, date, setPurchase }) => {
             setPurchase(null);
         });
 
-        if(loading){
-            return <Loading></Loading>
-        }
 
     }
 
