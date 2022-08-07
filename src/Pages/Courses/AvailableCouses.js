@@ -8,7 +8,7 @@ const AvailableCouses = ({ date }) => {
     const [purchase, setPurchase] = useState(null);
 
     useEffect(() => {
-        fetch('http://localhost:5000/course')
+        fetch('https://guarded-tundra-47741.herokuapp.com/course')
             .then(res => res.json())
             .then(data => setCourses(data));
     }, [])
@@ -19,16 +19,16 @@ const AvailableCouses = ({ date }) => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-16 lg:mb-24 ml-8 mr-8 mt-12'>
                 {
                     courses.map(course => <Course
-                    key={course._id}
-                    course={course}
-                    setPurchase={setPurchase}
+                        key={course._id}
+                        course={course}
+                        setPurchase={setPurchase}
                     ></Course>)
                 }
             </div>
-            {purchase && <OpenModal 
-            date={date} 
-            purchase={purchase}
-            setPurchase={setPurchase}
+            {purchase && <OpenModal
+                date={date}
+                purchase={purchase}
+                setPurchase={setPurchase}
             ></OpenModal>}
         </div>
     );

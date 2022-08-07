@@ -6,7 +6,7 @@ const Students = () => {
     const [users, setUsers] = useState([])
 
     useEffect(() => {
-        fetch("http://localhost:5000/course")
+        fetch("https://guarded-tundra-47741.herokuapp.com/course")
             .then(res => res.json())
             .then(data => setUsers(data))
     }, [])

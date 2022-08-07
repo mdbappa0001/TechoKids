@@ -9,7 +9,7 @@ const MyCourses = () => {
 
     useEffect(() => {
         if (user) {
-            fetch(`http://localhost:5000/enroll?student=${user.email}`)
+            fetch(`https://guarded-tundra-47741.herokuapp.com/enroll?student=${user.email}`)
                 .then(res => res.json())
                 .then(data => setCourses(data))
         }

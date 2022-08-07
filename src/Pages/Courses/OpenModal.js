@@ -30,7 +30,7 @@ const OpenModal = ({ purchase, date, setPurchase }) => {
             phone: event.target.phone.value
         }
 
-        fetch('http://localhost:5000/enroll', {
+        fetch('https://guarded-tundra-47741.herokuapp.com/enroll', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
