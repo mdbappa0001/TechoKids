@@ -17,6 +17,7 @@ const Dashboard = () => {
                     {/* <!-- Sidebar content here --> */}
                     <li className='bg-success rounded mt-4 hover:text-white hover:bg-red mb-5'><Link to="/dashboard">My Coueses</Link></li>
                     <li className='bg-success rounded hover:text-white hover:bg-red '><Link to="/dashboard/profile">My Profile</Link></li>
+                    <li className='bg-success mt-4 rounded hover:text-white hover:bg-red '><Link to="/dashboard/students">All Student</Link></li>
                 </ul>
 
             </div>

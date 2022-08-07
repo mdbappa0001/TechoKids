@@ -4,9 +4,8 @@ import auth from "../../Firebase/Firebase.init";
 import { useForm } from "react-hook-form";
 import Loading from "../../Components/Loading";
 import { Link, useNavigate } from 'react-router-dom';
-import teacherlogin from "../../images/teacherlogin.png";
 
-const TeacherSignUp = () => {
+const StudentSignUp = () => {
 
     const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
     const { register, formState: { errors }, handleSubmit } = useForm();
@@ -40,14 +39,14 @@ const TeacherSignUp = () => {
         await createUserWithEmailAndPassword(data.email, data.password);
         await updateProfile({ displayName: data.name });
         // console.log('update done');
-        navigate('/');
+        navigate('/schedule');
     }
 
     return (
         <>
 
 <div class="card lg:card-side bg-base-100 shadow-xl mt-8 lg:mt-0 lg:ml-36">
-  <figure><img src={teacherlogin} alt="Album" /></figure>
+  <figure><img src="https://web.programming-hero.com/static/media/man-with-laptop.331dfa07.png" alt="Album" /></figure>
   <div class="card-body">
   <div className='flex h-screen justify-center items-center'>
             <div className="card w-96 bg-base-100 shadow-xl">
@@ -144,4 +143,4 @@ const TeacherSignUp = () => {
     );
 };
 
-export default TeacherSignUp;
+export default StudentSignUp;

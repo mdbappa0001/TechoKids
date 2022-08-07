@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import AvailableCouses from './AvailableCouses';
 import CoursesBanner from './CoursesBanner';
 
-const Schedule = () => {
+const Courses = () => {
     const [date, setDate] = useState(new Date());
     return (
         <div>
@@ -12,4 +12,4 @@ const Schedule = () => {
     );
 };
 
-export default Schedule;
+export default Courses;

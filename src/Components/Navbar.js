@@ -14,8 +14,8 @@ const Navbar = () => {
 
     const menuItems = <>
         <li className='text-black font-bold text-xl'><Link to="/">Home</Link></li>
-        {user && <li className='text-black font-bold text-xl'><Link to="/schedule">Schedule</Link></li>}
-        <li className='text-black font-bold text-xl'><Link to="/dashboard">DashBoard</Link></li>
+        {user && <li className='text-black font-bold text-xl'><Link to="/schedule">Courses</Link></li>}
+        {user && <li className='text-black font-bold text-xl'><Link to="/dashboard">DashBoard</Link></li>}
         <li>
             {user ?
                 <button className='w-24 lg:w-32' onClick={logout}><span className='text-black font-bold lg:text-xl mr-0'>Sign Out</span></button> :
