@@ -21,7 +21,7 @@ const Main = () => {
                                         <h2 className='text-xl lg:text-2xl font-bold mb-4'>
                                             Student Login
                                         </h2>
-                                        <button class="btn btn-active btn-ghost ml-4 lg:ml-6">
+                                        <button className="btn btn-active btn-ghost ml-4 lg:ml-6">
                                             <Link to={`/studentLogin`}>Login Here</Link>
                                         </button>
                                     </div>
@@ -35,7 +35,7 @@ const Main = () => {
                                     <img className='w-16 lg:w-24' src={teacher} alt="" />
                                     <div className='mr-12 mt-8'>
                                         <h2 className='text-xl lg:text-2xl font-bold mb-4'>Teacher Login</h2>
-                                        <button class="btn btn-active btn-ghost ml-4 lg:ml-6">
+                                        <button className="btn btn-active btn-ghost ml-4 lg:ml-6">
                                             <Link to={`/teacherLogin`}>Login Here</Link>
                                         </button>
                                     </div>

@@ -40,9 +40,9 @@ const StudentLogin = () => {
     return (
         <>
 
-            <div class="card lg:card-side bg-base-100 shadow-xl mt-8 lg:mt-0 lg:ml-36">
+            <div className="card lg:card-side bg-base-100 shadow-xl mt-8 lg:mt-0 lg:ml-36">
                 <figure><img src="https://web.programming-hero.com/static/media/man-with-laptop.331dfa07.png" alt="Album" /></figure>
-                <div class="card-body">
+                <div className="card-body">
                     <div className='flex h-screen justify-center items-center'>
                         <div className="card w-96 bg-base-100 shadow-xl">
                             <div className="card-body">

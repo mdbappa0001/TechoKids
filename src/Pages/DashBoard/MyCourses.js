@@ -15,15 +15,15 @@ const MyCourses = () => {
         }
     }, [user])
 
-    if(!user){
+    if (!user) {
         return <Loading></Loading>
     }
 
     return (
         <div>
             <h2 className='text-blue ml-6 lg:text-xl mt-4 mb-4'>Hello, <span className='text-red'>{user?.displayName}</span>. You have <span className='text-red'>{courses?.length}</span> enrolled courses.</h2>
-            <div class="overflow-x-auto">
-                <table class="table w-full">
+            <div className="overflow-x-auto">
+                <table className="table w-full">
                     <thead>
                         <tr>
                             <th></th>

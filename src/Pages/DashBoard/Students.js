@@ -3,37 +3,36 @@ import StudentRow from './StudentRow';
 
 const Students = () => {
 
-    const [students, setStudents] = useState([])
+    const [users, setUsers] = useState([])
 
     useEffect(() => {
-        fetch("http://localhost:5000/enroll")
+        fetch("http://localhost:5000/course")
             .then(res => res.json())
-            .then(data => setStudents(data))
+            .then(data => setUsers(data))
     }, [])
 
     return (
         <div>
-            <h2>All Students: {students?.length}</h2>
-            <div class="overflow-x-auto">
-                <table class="table w-full">
+            <h2 className='text-center text-blue text-xl lg:mt-6 mb-4'>ALL COURSES: <span>{users?.length}</span> </h2>
+            <div className="overflow-x-auto">
+                <table className="table w-full">
                     <thead>
                         <tr>
                             <th></th>
-                            <th>Date</th>
+                            <th>Image</th>
                             <th>Name</th>
-                            <th>Course Name</th>
-                            <th>Status</th>
-                            <th>Make Admin</th>
+                            <th>Price</th>
+                            <th>Seats</th>
                         </tr>
                     </thead>
                     <tbody>
-                       {
-                        students.map((student, index) => <StudentRow 
-                        key={student._id}
-                        index={index}
-                        student={student}
-                        ></StudentRow>)
-                       }
+                        {
+                            users.map((user, index) => <StudentRow
+                                key={user._id}
+                                index={index}
+                                user={user}
+                            ></StudentRow>)
+                        }
                     </tbody>
                 </table>
             </div>

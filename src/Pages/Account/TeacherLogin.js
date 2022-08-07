@@ -42,9 +42,9 @@ const TeacherLogin = () => {
     return (
         <>
 
-            <div class="card lg:card-side bg-base-100 shadow-xl mt-8 lg:mt-0 lg:ml-36">
+            <div className="card lg:card-side bg-base-100 shadow-xl mt-8 lg:mt-0 lg:ml-36">
                 <figure><img src={teacherlogin} alt="Album" /></figure>
-                <div class="card-body">
+                <div className="card-body">
                     <div className='flex h-screen justify-center items-center'>
                         <div className="card w-96 bg-base-100 shadow-xl">
                             <div className="card-body">
